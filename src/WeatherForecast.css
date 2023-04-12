@@ -1,0 +1,22 @@
+.dayOfWeek {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+.Forecast {
+    border: 1px solid #dadde1;
+    width: 250px;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forecastIcon {
+    font-size: 30;
+    margin-bottom: 18px;
+}
+
+.firstDay {
+    margin-top: 30px;
+}

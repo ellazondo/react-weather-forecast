@@ -1,0 +1,66 @@
+.Weather {
+  border: 1px solid #dadde1;
+  width: 250px;
+  height: 310px;
+}
+
+.city {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.searchBar {
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+.searchButton {
+  margin-top: 10px;
+  margin-left: -3px;
+}
+
+.WeatherInfo h1 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.WeatherInfo li {
+  list-style: none;
+}
+
+.dateTime {
+  margin-left: 10px;
+  margin-top: -10px;
+  font-style: italic;
+  font-size: 10px;
+}
+
+.actualTemp {
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+.tempIconRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.descrip {
+  font-size: 20px;
+  margin-top: -5px;
+  font-weight: 100;
+}
+
+.descList {
+  margin-left: -20px;
+
+}
+
+  @media (max-width: 400px) {
+    ul{
+      display:none
+    }
+  }
